@@ -1,6 +1,6 @@
 FROM public.ecr.aws/lambda/python:3.11
 
-WORKDIR /picktoss-today-quiz-generation-worker
+WORKDIR /picktoss-import-member-worker
 
 RUN pip install poetry
 
